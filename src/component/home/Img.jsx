@@ -1,10 +1,15 @@
 import React from 'react'
+import {img} from '../../content/img'
 
 const Img = () => {
   return (
     <div className="relative flex-center w-full h-full">
-    <div className="h-[300px] w-[200px] bg-move absolute z-10 transform -translate-y-[20%] -translate-x-[20%]"></div>
-    <div className="h-[300px] w-[200px] bg-gold absolute z-20 transform translate-y-[-10%] translate-x-[-10%]"></div>
+    <div className="h-[300px] w-[200px] bg-gold absolute z-10 transform -translate-y-[20%] -translate-x-[20%]">
+      
+    </div>
+    <div className="h-[300px] w-[200px] bg-gold absolute z-20 transform translate-y-[-10%] translate-x-[-10%]">
+    <img src={img.section} alt="section img" />
+    </div>
   </div>
 
   )
