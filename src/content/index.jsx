@@ -3,6 +3,7 @@ export const navList =
     {title : 'Home' , id : '/' , active : true},
     {title : 'About' , id : '/about', active : false},
     {title : 'Services' , id : '/services', active : false},
+    {title : 'product' , id : '/product', active : false},
     {title : 'Contect Us' , id : '/contectus', active : false}
 ]
 
